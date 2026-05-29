@@ -73,9 +73,10 @@ new terminal (or `source ~/.zshrc`).
 
 - `CCLINE_BACKEND` — force the LLM CLI: `claude` or `codex`. Default is
   auto-detect (claude preferred, codex fallback).
-- `CCLINE_MODEL` — override the model, e.g.
-  `export CCLINE_MODEL=claude-haiku-4-5-20251001` for faster, cheaper answers.
-  Passed as `--model` to whichever backend is used.
+- `CCLINE_MODEL` — override the model. The claude backend defaults to
+  `claude-sonnet-4-6` (fastest end-to-end for these short prompts); set this to
+  use another, e.g. `export CCLINE_MODEL=claude-opus-4-8`. Passed as `--model`
+  to whichever backend is used.
 
 ## Running commands
 

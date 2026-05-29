@@ -43,15 +43,16 @@ ccline_backend() {
 # settings, or MCP. Echoes the answer; returns claude's exit status.
 ccline_ask_claude() {
   local prompt="$1" sys="$2"
-  local model_args=()
-  [ -n "${CCLINE_MODEL:-}" ] && model_args=(--model "$CCLINE_MODEL")
+  # Sonnet 4.6 by default: fastest end-to-end for these short prompts and plenty
+  # capable. Override with CCLINE_MODEL.
+  local model="${CCLINE_MODEL:-claude-sonnet-4-6}"
   claude -p \
     --system-prompt "$sys" \
     --tools "" \
     --setting-sources "" \
     --strict-mcp-config \
     --output-format text \
-    ${model_args[@]+"${model_args[@]}"} \
+    --model "$model" \
     "$prompt"
 }
 
