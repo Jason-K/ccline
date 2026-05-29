@@ -79,6 +79,9 @@ out="$(PATH="${STUB}:${PATH}" ccline_main what is the capital of France)"
 rc=$?
 check "stub claude prints answer (rc)" "0" "$rc"
 check "stub claude prints answer (text)" "Paris is the capital of France." "$out"
+# spinner must NOT leak into captured (non-tty) output: no braille frames, no "thinking"
+case "$out" in *thinking*) check "no spinner leak (label)" "clean" "leaked" ;; *) check "no spinner leak (label)" "clean" "clean" ;; esac
+case "$out" in *'⠋'*|*'⠙'*) check "no spinner leak (frames)" "clean" "leaked" ;; *) check "no spinner leak (frames)" "clean" "clean" ;; esac
 
 # --- CCLINE_RUN_FILE: selection is written to the file, NOT executed here ---
 sentinel="${STUB}/sentinel-created"

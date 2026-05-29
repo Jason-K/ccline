@@ -123,6 +123,23 @@ ccline_render() {
   '
 }
 
+# A "thinking" animation shown while we wait for the LLM. Cycles a braille
+# spinner next to a label, redrawn in place at ~10fps, dimmed, cursor hidden.
+# Draws ONLY to /dev/tty — never stdout/stderr — because the caller captures the
+# answer via $(...) and any stray bytes would corrupt it. Runs as a background
+# process; the caller kills it and clears the line when the answer arrives.
+ccline_spinner() {
+  local tty=/dev/tty ESC=$'\e'
+  local frames='⠋⠙⠹⠸⠼⠴⠦⠧⠇⠏' i=0 n
+  n=${#frames}
+  printf '%s[?25l' "$ESC" > "$tty" 2>/dev/null    # hide cursor
+  while :; do
+    printf '\r%s[2m%s thinking…%s[0m' "$ESC" "${frames:i:1}" "$ESC" > "$tty" 2>/dev/null
+    i=$(( (i + 1) % n ))
+    sleep 0.1
+  done
+}
+
 # True when we have an interactive terminal we can read keystrokes from.
 ccline_can_interact() {
   [ -t 1 ] || return 1
@@ -201,9 +218,24 @@ ccline_main() {
   local sys
   sys="$(ccline_system_prompt)"
 
-  local answer rc
+  local answer rc spin_pid=""
+  # Show a "thinking" spinner during the blocking LLM call (interactive only).
+  # The trap guarantees the cursor is restored and no frame is left behind if
+  # the user hits Ctrl-C mid-thought.
+  if [ -t 1 ]; then
+    ccline_spinner &
+    spin_pid=$!
+    trap 'kill "$spin_pid" 2>/dev/null; printf "\r\e[K\e[?25h" > /dev/tty 2>/dev/null' INT EXIT
+  fi
   answer="$("ccline_ask_${backend}" "$prompt" "$sys")"
   rc=$?
+  if [ -n "$spin_pid" ]; then
+    kill "$spin_pid" 2>/dev/null
+    wait "$spin_pid" 2>/dev/null
+    printf '\r\e[K\e[?25h' > /dev/tty 2>/dev/null   # clear line, restore cursor
+    trap - INT EXIT
+    spin_pid=""
+  fi
   if [ "$rc" -ne 0 ]; then
     echo "ccline: $backend exited with status $rc" >&2
     return "$rc"
