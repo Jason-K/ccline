@@ -494,3 +494,13 @@ gh api /repos/jianshuo/ccline --jq '.stargazers_count'
 - GitHub Discussion 已发布：**200+** 个 repo（rounds 1-14）
 - 累计覆盖星数：数亿（通过在热门 repo 的讨论区曝光）
 - 今日独立访客：53 个
+
+### Round 15 — 2026-06-10（Web scraping + ORM + UI + CI/CD）
+
+| Discussion | Repo | 星数 | 链接 |
+|-----------|------|------|------|
+| #7587  | scrapy/scrapy | ~62k | https://github.com/scrapy/scrapy/discussions/7587 |
+| #29632 | prisma/prisma | ~46k | https://github.com/prisma/prisma/discussions/29632 |
+| #10852 | chakra-ui/chakra-ui | ~40k | https://github.com/chakra-ui/chakra-ui/discussions/10852 |
+| #13404 | dagger/dagger | ~16k | https://github.com/dagger/dagger/discussions/13404 |
+| #557   | charmbracelet/wish | ~5k | https://github.com/charmbracelet/wish/discussions/557 |
