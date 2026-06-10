@@ -590,6 +590,19 @@ gh api /repos/jianshuo/ccline --jq '.stargazers_count'
 |------|------|------|
 | 2026-06-10 | https://x.com/jianshuo/status/2064646489067143338 | 3条推文串：主打「在 zsh 提示符输英文，直接得答案」，有 install 命令 |
 | 2026-06-10 | https://x.com/jianshuo/status/2064711105059102816 | 3条推文串：macOS 用户角度，列举具体用例 |
+| 2026-06-11 | https://x.com/jianshuo/status/2064741417046659207 | 3条推文串：技术实现角度——command_not_found_handler 原理 |
+
+## LinkedIn 发帖记录
+
+| 日期 | 链接 | 内容 |
+|------|------|------|
+| 2026-06-11 | https://www.linkedin.com/feed/update/urn:li:share:7470507278098403329 | ccline 介绍：terminal workflow 改进，中英双解 |
+
+## Threads 发帖记录
+
+| 日期 | 链接 | 内容 |
+|------|------|------|
+| 2026-06-11 | https://www.threads.net/@jianshuoo/post/18098553883965005 | ccline 简介 + brew install 命令 |
 
 ---
 
@@ -599,14 +612,19 @@ gh api /repos/jianshuo/ccline --jq '.stargazers_count'
 1. **Show HN** (https://news.ycombinator.com/submit)：标题 `Show HN: ccline – type a thought at your zsh prompt, get an AI answer, run the command`
 2. **Reddit**：r/commandline, r/zsh, r/MacOS
 3. **Claude Discord** (https://anthropic.com/discord)：#show-and-tell 频道
+4. **Dev.to 文章**：草稿在 docs/devto-article.md，需手动登录发布
 
 ---
 
 ## 总体进度
 
-- **Stars: 6/200**（2026-06-10）
-- GitHub Discussion 已发布：**200+** 个 repo（rounds 1-14）
-- 累计覆盖星数：数亿（通过在热门 repo 的讨论区曝光）
+- **Stars: 6/200**（2026-06-11）
+- GitHub Discussion 已发布：**200+** 个 repo（rounds 1-23，已暂停）
+- X (Twitter) 帖子：3 个推文串，**t.co 是最大流量来源（51/80 次访问）**
+- LinkedIn: 1 条
+- Threads: 1 条
+- Bluesky: 5 条
+- GitHub 活动暂停至 2026-06-17（安全考虑）
 - 今日独立访客：53 个
 
 ### Round 15 — 2026-06-10（Web scraping + ORM + UI + CI/CD）
