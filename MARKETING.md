@@ -504,3 +504,11 @@ gh api /repos/jianshuo/ccline --jq '.stargazers_count'
 | #10852 | chakra-ui/chakra-ui | ~40k | https://github.com/chakra-ui/chakra-ui/discussions/10852 |
 | #13404 | dagger/dagger | ~16k | https://github.com/dagger/dagger/discussions/13404 |
 | #557   | charmbracelet/wish | ~5k | https://github.com/charmbracelet/wish/discussions/557 |
+
+### Round 16 — 2026-06-10（数据科学 + 3D）
+
+| Discussion | Repo | 星数 | 链接 |
+|-----------|------|------|------|
+| #7950  | jupyter/notebook | ~13k | https://github.com/jupyter/notebook/discussions/7950 |
+| #3770  | pmndrs/react-three-fiber | ~31k | https://github.com/pmndrs/react-three-fiber/discussions/3770 |
+| #2744  | pmndrs/drei | ~10k | https://github.com/pmndrs/drei/discussions/2744 |
