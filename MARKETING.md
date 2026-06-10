@@ -411,3 +411,18 @@ gh api /repos/jianshuo/ccline --jq '.stargazers_count'
 | #11574 | deepset-ai/haystack | ~26k | https://github.com/deepset-ai/haystack/discussions/11574 |
 | #7920  | HandBrake/HandBrake | ~23k | https://github.com/HandBrake/HandBrake/discussions/7920 |
 | #2296  | abetlen/llama-cpp-python | ~10k | https://github.com/abetlen/llama-cpp-python/discussions/2296 |
+
+### Round 10 — 2026-06-10（Go + DevOps + 文档工具）
+
+| Discussion | Repo | 星数 | 链接 |
+|-----------|------|------|------|
+| #4700  | gin-gonic/gin | ~89k | https://github.com/gin-gonic/gin/discussions/4700 |
+| #7836  | mermaid-js/mermaid | ~89k | https://github.com/orgs/mermaid-js/discussions/7836 |
+| #14037 | nocodb/nocodb | ~63k | https://github.com/nocodb/nocodb/discussions/14037 |
+| #42629 | grpc/grpc | ~45k | https://github.com/grpc/grpc/discussions/42629 |
+| #11694 | jgm/pandoc | ~45k | https://github.com/jgm/pandoc/discussions/11694 |
+| #10351 | celery/celery | ~29k | https://github.com/celery/celery/discussions/10351 |
+| #28224 | argoproj/argo-cd | ~23k | https://github.com/argoproj/argo-cd/discussions/28224 |
+| #4568  | bufbuild/buf | ~11k | https://github.com/bufbuild/buf/discussions/4568 |
+| #6308  | gruntwork-io/terragrunt | ~10k | https://github.com/gruntwork-io/terragrunt/discussions/6308 |
+| #5935  | fluxcd/flux2 | ~8k | https://github.com/fluxcd/flux2/discussions/5935 |
