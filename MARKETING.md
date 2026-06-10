@@ -400,3 +400,14 @@ gh api /repos/jianshuo/ccline --jq '.stargazers_count'
 | #20970 | eslint/eslint | ~27k | https://github.com/eslint/eslint/discussions/20970 |
 | #1358  | XAMPPRocky/tokei | ~15k | https://github.com/XAMPPRocky/tokei/discussions/1358 |
 | #1052  | watchexec/watchexec | ~7k | https://github.com/watchexec/watchexec/discussions/1052 |
+
+### Round 9 — 2026-06-10（字体 + 视频 + AI框架）
+
+| Discussion | Repo | 星数 | 链接 |
+|-----------|------|------|------|
+| #2011  | ryanoasis/nerd-fonts | ~63k | https://github.com/ryanoasis/nerd-fonts/discussions/2011 |
+| #2918  | mifi/lossless-cut | ~41k | https://github.com/mifi/lossless-cut/discussions/2918 |
+| #14063 | microsoft/semantic-kernel | ~28k | https://github.com/microsoft/semantic-kernel/discussions/14063 |
+| #11574 | deepset-ai/haystack | ~26k | https://github.com/deepset-ai/haystack/discussions/11574 |
+| #7920  | HandBrake/HandBrake | ~23k | https://github.com/HandBrake/HandBrake/discussions/7920 |
+| #2296  | abetlen/llama-cpp-python | ~10k | https://github.com/abetlen/llama-cpp-python/discussions/2296 |
