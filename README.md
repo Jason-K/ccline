@@ -1,5 +1,8 @@
 # ccline
 
+[![GitHub stars](https://img.shields.io/github/stars/jianshuo/ccline?style=flat-square)](https://github.com/jianshuo/ccline/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
+
 Type a thought directly at your shell prompt — no command, no prefix — and get
 an answer. If the answer contains shell commands, confirm once and run them.
 
@@ -23,6 +26,17 @@ $ find . -maxdepth 1 -type f -size +100M
 
 The answer is rendered as Markdown (headings, bold, inline code, bullets, and
 colorized code blocks) when printed to a terminal.
+
+## Why ccline?
+
+You're in the terminal and need to remember a command. Your options:
+- Leave the terminal to Google it, copy, paste back
+- Open a new Claude window, ask, copy, paste back
+- Open a new terminal tab, run `claude -p "..."`, copy
+
+With ccline: just type the question where you already are. The answer appears
+inline, and if there's a runnable command, one keypress executes it in your live
+shell — `cd`, `export`, history and all.
 
 ## How it works
 
