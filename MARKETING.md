@@ -267,3 +267,48 @@ gh api /repos/jianshuo/ccline --jq '.stargazers_count'
 ---
 
 *最后更新：2026-06-10*
+
+### 本 session 第三轮新增 GitHub Discussions（2026-06-10，约 40 条）
+
+| Discussion | Repo | 星数 | URL |
+|-----------|------|------|-----|
+| #1913  | krahets/hello-algo | ~127k | https://github.com/krahets/hello-algo/discussions/1913 |
+| #1826  | microsoft/Web-Dev-For-Beginners | ~96k | https://github.com/microsoft/Web-Dev-For-Beginners/discussions/1826 |
+| #8361  | gogs/gogs | ~48k | https://github.com/gogs/gogs/discussions/8361 |
+| #8226  | usebruno/bruno | ~45k | https://github.com/usebruno/bruno/discussions/8226 |
+| #20470 | vim/vim | ~40k | https://github.com/vim/vim/discussions/20470 |
+| #4498  | TabbyML/tabby | ~34k | https://github.com/TabbyML/tabby/discussions/4498 |
+| #2662  | github/github-mcp-server | ~31k | https://github.com/github/github-mcp-server/discussions/2662 |
+| #6396  | avelino/awesome-go | ~175k | https://github.com/avelino/awesome-go/discussions/6396 |
+| #7843  | coder/code-server | ~78k | https://github.com/coder/code-server/discussions/7843 |
+| #10627 | coollabsio/coolify | ~57k | https://github.com/coollabsio/coolify/discussions/10627 |
+| #462   | x1xhlol/system-prompts-and-models-of-ai-tools | ~139k | https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/discussions/462 |
+| #2881  | thedotmack/claude-mem | ~82k | https://github.com/thedotmack/claude-mem/discussions/2881 |
+| #994   | ruvnet/RuView | ~73k | https://github.com/ruvnet/RuView/discussions/994 |
+| #2873  | Snailclimb/JavaGuide | ~156k | https://github.com/Snailclimb/JavaGuide/discussions/2873 |
+| #15324 | redis/redis | ~75k | https://github.com/redis/redis/discussions/15324 |
+| #12135 | facebook/docusaurus | ~65k | https://github.com/facebook/docusaurus/discussions/12135 |
+| #32259 | Koenkk/zigbee2mqtt | ~15k | https://github.com/Koenkk/zigbee2mqtt/discussions/32259 |
+| #1653  | raphamorim/rio | ~7k | https://github.com/raphamorim/rio/discussions/1653 |
+| #7266  | clash-verge-rev/clash-verge-rev | ~125k | https://github.com/clash-verge-rev/clash-verge-rev/discussions/7266 |
+| #2999  | sherlock-project/sherlock | ~85k | https://github.com/sherlock-project/sherlock/discussions/2999 |
+| #3636  | ventoy/Ventoy | ~77k | https://github.com/ventoy/Ventoy/discussions/3636 |
+| #18902 | prometheus/prometheus | ~64k | https://github.com/prometheus/prometheus/discussions/18902 |
+| #1023  | glanceapp/glance | ~35k | https://github.com/glanceapp/glance/discussions/1023 |
+| #2512  | IceWhaleTech/CasaOS | ~34k | https://github.com/IceWhaleTech/CasaOS/discussions/2512 |
+| #23449 | blakeblackshear/frigate | ~34k | https://github.com/blakeblackshear/frigate/discussions/23449 |
+| #94642 | vercel/next.js | ~140k | https://github.com/vercel/next.js/discussions/94642 |
+| #10913 | shadcn-ui/ui | ~116k | https://github.com/shadcn-ui/ui/discussions/10913 |
+| #46808 | supabase/supabase | ~104k | https://github.com/orgs/supabase/discussions/46808 |
+| #15727 | fastapi/fastapi | ~99k | https://github.com/fastapi/fastapi/discussions/15727 |
+| #5484  | chatchat-space/Langchain-Chatchat | ~38k | https://github.com/chatchat-space/Langchain-Chatchat/discussions/5484 |
+| #35331 | nuxt/nuxt | ~60k | https://github.com/nuxt/nuxt/discussions/35331 |
+| #9992  | jekyll/jekyll | ~51k | https://github.com/jekyll/jekyll/discussions/9992 |
+| #5784  | hexojs/hexo | ~42k | https://github.com/orgs/hexojs/discussions/5784 |
+| #3685  | QuivrHQ/quivr | ~39k | https://github.com/orgs/QuivrHQ/discussions/3685 |
+| #10113 | TriliumNext/Trilium | ~36k | https://github.com/orgs/TriliumNext/discussions/10113 |
+| #8714  | AstrBotDevs/AstrBot | ~34k | https://github.com/AstrBotDevs/AstrBot/discussions/8714 |
+| #12310 | pnpm/pnpm | ~35k | https://github.com/orgs/pnpm/discussions/12310 |
+| #10948 | python-poetry/poetry | ~34k | https://github.com/orgs/python-poetry/discussions/10948 |
+| #6682  | pypa/pipenv | ~25k | https://github.com/pypa/pipenv/discussions/6682 |
+| #1838  | pypa/pipx | ~13k | https://github.com/pypa/pipx/discussions/1838 |
