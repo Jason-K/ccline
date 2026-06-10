@@ -61,6 +61,40 @@
 | #2961 | gitui-org/gitui | ~22k | Show and tell | https://github.com/gitui-org/gitui/discussions/2961 |
 | #2172 | dandavison/delta | ~31k | Show and tell | https://github.com/dandavison/delta/discussions/2172 |
 | #10127 | kovidgoyal/kitty | ~33k | Show and tell | https://github.com/kovidgoyal/kitty/discussions/10127 |
+| #7019 | acmesh-official/acme.sh | ~47k | Show and tell | https://github.com/acmesh-official/acme.sh/discussions/7019 |
+| #7844 | wezterm/wezterm | ~27k | Show and tell | https://github.com/wezterm/wezterm/discussions/7844 |
+| #3363 | wavetermdev/waveterm | ~21k | General | https://github.com/wavetermdev/waveterm/discussions/3363 |
+| #4160 | Textualize/rich | ~57k | Show and tell | https://github.com/Textualize/rich/discussions/4160 |
+| #6574 | Textualize/textual | ~36k | Show and tell | https://github.com/Textualize/textual/discussions/6574 |
+| #3471 | pyenv/pyenv | ~45k | Show and tell | https://github.com/orgs/pyenv/discussions/3471 |
+| #25811 | astral-sh/ruff | ~48k | Show and tell | https://github.com/astral-sh/ruff/discussions/25811 |
+| #2031 | sharkdp/fd | ~43k | Show and tell | https://github.com/sharkdp/fd/discussions/2031 |
+| #15864 | helix-editor/helix | ~45k | Show and tell | https://github.com/helix-editor/helix/discussions/15864 |
+| #974  | charmbracelet/glow | ~26k | Show and tell | https://github.com/charmbracelet/glow/discussions/974 |
+| #1713 | charmbracelet/bubbletea | ~43k | Show and tell | https://github.com/charmbracelet/bubbletea/discussions/1713 |
+| #901  | sharkdp/hyperfine | ~28k | Show and tell | https://github.com/sharkdp/hyperfine/discussions/901 |
+| #40164 | neovim/neovim | ~100k | Show and tell | https://github.com/neovim/neovim/discussions/40164 |
+| #758  | charmbracelet/vhs | ~20k | Show and tell | https://github.com/charmbracelet/vhs/discussions/758 |
+| #22788 | tldr-pages/tldr | ~63k | Show and tell | https://github.com/orgs/tldr-pages/discussions/22788 |
+| #970  | vadimdemedes/ink | ~39k | Show and tell | https://github.com/vadimdemedes/ink/discussions/970 |
+| #3559 | jqlang/jq | ~35k | Show and tell | https://github.com/jqlang/jq/discussions/3559 |
+| #3363 | casey/just | ~34k | Show and tell | https://github.com/casey/just/discussions/3363 |
+| #373  | muesli/duf | ~15k | Show and tell | https://github.com/muesli/duf/discussions/373 |
+| #12811 | fish-shell/fish-shell | ~34k | Show and tell | https://github.com/fish-shell/fish-shell/discussions/12811 |
+| #18385 | nushell/nushell | ~40k | Show and tell | https://github.com/nushell/nushell/discussions/18385 |
+| #2362 | rtk-ai/rtk | ~61k | Show and tell | https://github.com/rtk-ai/rtk/discussions/2362 |
+| #426  | sirmalloc/ccstatusline | ~10k | General | https://github.com/sirmalloc/ccstatusline/discussions/426 |
+| #4033 | sxyazi/yazi | ~39k | Show and tell | https://github.com/sxyazi/yazi/discussions/4033 |
+| #218  | Maciek-roboblog/Claude-Code-Usage-Monitor | ~8k | Show and tell | https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor/discussions/218 |
+| #2143 | jarun/nnn | ~22k | Show and tell | https://github.com/jarun/nnn/discussions/2143 |
+| #5686 | jesseduffield/lazygit | ~79k | Show and tell | https://github.com/jesseduffield/lazygit/discussions/5686 |
+| #3796 | sharkdp/bat | ~59k | Show and tell | https://github.com/sharkdp/bat/discussions/3796 |
+| #812  | jesseduffield/lazydocker | ~51k | Show and tell | https://github.com/jesseduffield/lazydocker/discussions/812 |
+| #5189 | tmux/tmux | ~46k | General | https://github.com/orgs/tmux/discussions/5189 |
+| #3439 | BurntSushi/ripgrep | ~65k | General | https://github.com/BurntSushi/ripgrep/discussions/3439 |
+| #2961 | gitui-org/gitui | ~22k | Show and tell | https://github.com/gitui-org/gitui/discussions/2961 |
+| #2172 | dandavison/delta | ~31k | Show and tell | https://github.com/dandavison/delta/discussions/2172 |
+| #10127 | kovidgoyal/kitty | ~33k | Show and tell | https://github.com/kovidgoyal/kitty/discussions/10127 |
 
 ## 已完成：其他渠道
 
