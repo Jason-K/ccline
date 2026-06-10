@@ -388,3 +388,15 @@ gh api /repos/jianshuo/ccline --jq '.stargazers_count'
 | #256   | newmarcel/KeepingYouAwake | ~7k | https://github.com/newmarcel/KeepingYouAwake/discussions/256 |
 | #1676  | writefreely/writefreely | ~5k | https://github.com/writefreely/writefreely/discussions/1676 |
 | #782   | zdharma-continuum/zinit | ~5k | https://github.com/zdharma-continuum/zinit/discussions/782 |
+
+### Round 8 — 2026-06-10（代码工具 + 监控 + 脚本）
+
+| Discussion | Repo | 星数 | 链接 |
+|-----------|------|------|------|
+| #19338 | prettier/prettier | ~52k | https://github.com/prettier/prettier/discussions/19338 |
+| #1483  | google/zx | ~46k | https://github.com/google/zx/discussions/1483 |
+| #9634  | martinvonz/jj | ~30k | https://github.com/jj-vcs/jj/discussions/9634 |
+| #13297 | pydantic/pydantic | ~28k | https://github.com/pydantic/pydantic/discussions/13297 |
+| #20970 | eslint/eslint | ~27k | https://github.com/eslint/eslint/discussions/20970 |
+| #1358  | XAMPPRocky/tokei | ~15k | https://github.com/XAMPPRocky/tokei/discussions/1358 |
+| #1052  | watchexec/watchexec | ~7k | https://github.com/watchexec/watchexec/discussions/1052 |
