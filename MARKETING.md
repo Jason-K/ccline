@@ -82,6 +82,18 @@
 | #373  | muesli/duf | ~15k | Show and tell | https://github.com/muesli/duf/discussions/373 |
 | #12811 | fish-shell/fish-shell | ~34k | Show and tell | https://github.com/fish-shell/fish-shell/discussions/12811 |
 | #18385 | nushell/nushell | ~40k | Show and tell | https://github.com/nushell/nushell/discussions/18385 |
+| #5094  | twpayne/chezmoi | ~20k | Show and tell | https://github.com/twpayne/chezmoi/discussions/5094 |
+| #10293 | jdx/mise | ~29k | Show and tell | https://github.com/jdx/mise/discussions/10293 |
+| #5246  | zellij-org/zellij | ~34k | Show and tell | https://github.com/zellij-org/zellij/discussions/5246 |
+| #30117 | BerriAI/litellm | ~50k | Show and tell | https://github.com/BerriAI/litellm/discussions/30117 |
+| #1670  | anthropics/anthropic-sdk-python | ~4k | Show and tell | https://github.com/anthropics/anthropic-sdk-python/discussions/1670 |
+| #3388  | openai/openai-python | ~31k | Show and tell | https://github.com/openai/openai-python/discussions/3388 |
+| #40164 | neovim/neovim | ~100k | Show and tell | https://github.com/neovim/neovim/discussions/40164 |
+| #758   | charmbracelet/vhs | ~20k | Show and tell | https://github.com/charmbracelet/vhs/discussions/758 |
+| #7198  | LazyVim/LazyVim | ~27k | Show and tell | https://github.com/LazyVim/LazyVim/discussions/7198 |
+| #2088  | nvim-lua/kickstart.nvim | ~31k | Show and tell | https://github.com/nvim-lua/kickstart.nvim/discussions/2088 |
+| #3678  | nvim-telescope/telescope.nvim | ~20k | Show and tell | https://github.com/nvim-telescope/telescope.nvim/discussions/3678 |
+| #996   | tmuxinator/tmuxinator | ~14k | Show and tell | https://github.com/tmuxinator/tmuxinator/discussions/996 |
 | #2362 | rtk-ai/rtk | ~61k | Show and tell | https://github.com/rtk-ai/rtk/discussions/2362 |
 | #426  | sirmalloc/ccstatusline | ~10k | General | https://github.com/sirmalloc/ccstatusline/discussions/426 |
 | #4033 | sxyazi/yazi | ~39k | Show and tell | https://github.com/sxyazi/yazi/discussions/4033 |
