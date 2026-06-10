@@ -150,7 +150,15 @@
 | jianshuo.dev 首页 | 重新设计，ccline 放主位 | 完成 |
 | GitHub topics | 已扩充到 14 个 | 完成 |
 | 落地页 OG/Twitter Card | 已添加 meta tags，部署到 ccline.jianshuo.dev | 完成 |
-| X/Twitter 推文串 | 3 条推文串，介绍 ccline 功能 + 安装方法 | https://x.com/jianshuo/status/2064646489067143338 |
+| X/Twitter Thread 1 | 介绍 ccline 功能 + 安装方法 | https://x.com/jianshuo/status/2064646489067143338 |
+| X/Twitter Thread 2 | 技术细节 + command_not_found_handler 原理 | https://x.com/jianshuo/status/2064711105059102816 |
+| X/Twitter Thread 3 | 面向 Claude Code 用户 | https://x.com/jianshuo/status/2064718004215230716 |
+| X/Twitter Thread 4 | "I stopped Googling shell commands" 故事角度 | https://x.com/jianshuo/status/2064726073263497428 |
+| X/Twitter Thread 5 | "I asked Google 47 times" 可共鸣故事 | https://x.com/jianshuo/status/2064726448196538813 |
+| X/Twitter Thread 6 | 中文推文串，面向中文开发者 | https://x.com/jianshuo/status/2064735545390182582 |
+| X/Twitter Thread 7 | dotfiles/macOS power user 角度 | https://x.com/jianshuo/status/2064735991836061824 |
+| Dev.to 文章草稿 | 技术文章「I wired Claude into zsh's command_not_found_handler」 | docs/devto-article.md（待人工发布）|
+| Reddit 帖子草稿 | r/commandline, r/zsh, r/MacOS, Show HN 文案 | docs/reddit-posts.md（待人工发布）|
 | 521xueweihan/HelloGitHub「推荐项目」| 在 161k 星的 HelloGitHub 「推荐项目」分类发帖 | https://github.com/521xueweihan/HelloGitHub/discussions/3342 |
 
 ### 本 session 第二轮新增 GitHub Discussions（2026-06-10，共约 40 条）
