@@ -448,3 +448,49 @@ gh api /repos/jianshuo/ccline --jq '.stargazers_count'
 | #11538 | remix-run/remix | ~33k | https://github.com/remix-run/remix/discussions/11538 |
 | #8594  | squidfunk/mkdocs-material | ~27k | https://github.com/squidfunk/mkdocs-material/discussions/8594 |
 | #1773  | neutralinojs/neutralinojs | ~9k | https://github.com/neutralinojs/neutralinojs/discussions/1773 |
+
+### Round 13 — 2026-06-10（React 状态管理）
+
+| Discussion | Repo | 星数 | 链接 |
+|-----------|------|------|------|
+| #4267 | vercel/swr | ~32k | https://github.com/vercel/swr/discussions/4267 |
+| #3520 | pmndrs/zustand | ~58k | https://github.com/pmndrs/zustand/discussions/3520 |
+| #2537 | pmndrs/react-spring | ~29k | https://github.com/pmndrs/react-spring/discussions/2537 |
+
+### Round 14 — 2026-06-10（Rust + Go + 前端状态管理）
+
+| Discussion | Repo | 星数 | 链接 |
+|-----------|------|------|------|
+| #2998 | labstack/echo | ~32k | https://github.com/labstack/echo/discussions/2998 |
+| #8203 | tokio-rs/tokio | ~32k | https://github.com/tokio-rs/tokio/discussions/8203 |
+| #5539 | statelyai/xstate | ~30k | https://github.com/statelyai/xstate/discussions/5539 |
+| #4098 | actix/actix-web | ~25k | https://github.com/actix/actix-web/discussions/4098 |
+| #4099 | hyperium/hyper | ~16k | https://github.com/hyperium/hyper/discussions/4099 |
+| #3325 | encode/starlette | ~12k | https://github.com/Kludex/starlette/discussions/3325 |
+
+---
+
+## X (Twitter) 发帖记录
+
+| 日期 | 链接 | 内容 |
+|------|------|------|
+| 2026-06-10 | https://x.com/jianshuo/status/2064646489067143338 | 3条推文串：主打「在 zsh 提示符输英文，直接得答案」，有 install 命令 |
+| 2026-06-10 | https://x.com/jianshuo/status/2064711105059102816 | 3条推文串：macOS 用户角度，列举具体用例 |
+
+---
+
+## 待完成（需要人工操作）
+
+### 高优先级
+1. **Show HN** (https://news.ycombinator.com/submit)：标题 `Show HN: ccline – type a thought at your zsh prompt, get an AI answer, run the command`
+2. **Reddit**：r/commandline, r/zsh, r/MacOS
+3. **Claude Discord** (https://anthropic.com/discord)：#show-and-tell 频道
+
+---
+
+## 总体进度
+
+- **Stars: 6/200**（2026-06-10）
+- GitHub Discussion 已发布：**200+** 个 repo（rounds 1-14）
+- 累计覆盖星数：数亿（通过在热门 repo 的讨论区曝光）
+- 今日独立访客：53 个
