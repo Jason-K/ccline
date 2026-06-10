@@ -344,3 +344,21 @@ gh api /repos/jianshuo/ccline --jq '.stargazers_count'
 | #2052 | nvim-neo-tree/neo-tree.nvim | ~5k | Show and tell | https://github.com/nvim-neo-tree/neo-tree.nvim/discussions/2052 |
 | #1679 | arxanas/git-branchless | ~4k | Show and tell | https://github.com/arxanas/git-branchless/discussions/1679 |
 | #3583 | nicolargo/glances | ~33k | Show and tell | https://github.com/nicolargo/glances/discussions/3583 |
+
+### Round 6 — 2026-06-10（容器 + IaC + TUI + macOS）
+
+| Discussion | Repo | 星数 | 链接 |
+|-----------|------|------|------|
+| #1154  | serhii-londar/open-source-mac-os-apps | ~49k | https://github.com/serhii-londar/open-source-mac-os-apps/discussions/1154 |
+| #14206 | k3s-io/k3s | ~33k | https://github.com/k3s-io/k3s/discussions/14206 |
+| #28902 | containers/podman | ~32k | https://github.com/podman-container-tools/podman/discussions/28902 |
+| #4249  | opentofu/opentofu | ~29k | https://github.com/orgs/opentofu/discussions/4249 |
+| #23514 | pulumi/pulumi | ~25k | https://github.com/pulumi/pulumi/discussions/23514 |
+| #5102  | lima-vm/lima | ~21k | https://github.com/lima-vm/lima/discussions/5102 |
+| #6654  | goreleaser/goreleaser | ~16k | https://github.com/goreleaser/goreleaser/discussions/6654 |
+| #14581 | pytest-dev/pytest | ~14k | https://github.com/pytest-dev/pytest/discussions/14581 |
+| #698   | charmbracelet/lipgloss | ~11k | https://github.com/charmbracelet/lipgloss/discussions/698 |
+| #4957  | containerd/nerdctl | ~10k | https://github.com/containerd/nerdctl/discussions/4957 |
+| #2529  | orbstack/orbstack | ~9k | https://github.com/orgs/orbstack/discussions/2529 |
+| #786   | charmbracelet/huh | ~7k | https://github.com/charmbracelet/huh/discussions/786 |
+| #6052  | pallets/flask | ~72k | https://github.com/orgs/pallets/discussions/6052 |
