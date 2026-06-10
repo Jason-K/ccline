@@ -1,6 +1,6 @@
 # ccline 营销记录（供 AI agent 续跑使用）
 
-**目标：GitHub 200 星 | 当前：3 星（2026-06-10）**
+**目标：GitHub 200 星 | 当前：4 星（2026-06-10，从 3 升到 4）**
 
 ---
 
@@ -150,7 +150,35 @@
 | jianshuo.dev 首页 | 重新设计，ccline 放主位 | 完成 |
 | GitHub topics | 已扩充到 14 个 | 完成 |
 | 落地页 OG/Twitter Card | 已添加 meta tags，部署到 ccline.jianshuo.dev | 完成 |
-| X/Twitter 推文串 | 3 条推文，介绍 ccline 功能 + 安装方法 | 2026-06-10 |
+| X/Twitter 推文串 | 3 条推文串，介绍 ccline 功能 + 安装方法 | https://x.com/jianshuo/status/2064646489067143338 |
+| 521xueweihan/HelloGitHub「推荐项目」| 在 161k 星的 HelloGitHub 「推荐项目」分类发帖 | https://github.com/521xueweihan/HelloGitHub/discussions/3342 |
+
+### 本 session 第二轮新增 GitHub Discussions（2026-06-10，共约 40 条）
+
+| Discussion | Repo | 星数 | URL |
+|-----------|------|------|-----|
+| #6122  | iina/iina | ~45k | https://github.com/iina/iina/discussions/6122 |
+| #1775  | rxhanson/Rectangle | ~29k | https://github.com/rxhanson/Rectangle/discussions/1775 |
+| #5517  | waydabber/BetterDisplay | ~32k | https://github.com/waydabber/BetterDisplay/discussions/5517 |
+| #1875  | MonitorControl/MonitorControl | ~33k | https://github.com/MonitorControl/MonitorControl/discussions/1875 |
+| #14791 | TheAlgorithms/Python | ~222k | https://github.com/TheAlgorithms/Python/discussions/14791 |
+| #993   | microsoft/ML-For-Beginners | ~87k | https://github.com/microsoft/ML-For-Beginners/discussions/993 |
+| #6595  | Stirling-Tools/Stirling-PDF | ~81k | https://github.com/Stirling-Tools/Stirling-PDF/discussions/6595 |
+| #6029  | usememos/memos | ~61k | https://github.com/orgs/usememos/discussions/6029 |
+| #883   | practical-tutorials/project-based-learning | ~268k | https://github.com/practical-tutorials/project-based-learning/discussions/883 |
+| #52808 | moby/moby | ~72k | https://github.com/moby/moby/discussions/52808 |
+| #2264  | QwenLM/Qwen | ~21k | https://github.com/QwenLM/Qwen/discussions/2264 |
+| #835   | travisvn/awesome-claude-skills | ~13k | https://github.com/travisvn/awesome-claude-skills/discussions/835 |
+| #1824  | Anduin2017/HowToCook | ~101k | https://github.com/Anduin2017/HowToCook/discussions/1824 |
+| #15516 | tauri-apps/tauri | ~108k | https://github.com/orgs/tauri-apps/discussions/15516 |
+| #35092 | denoland/deno | ~107k | https://github.com/denoland/deno/discussions/35092 |
+| #28967 | immich-app/immich | ~103k | https://github.com/immich-app/immich/discussions/28967 |
+| #32058 | oven-sh/bun | ~93k | https://github.com/oven-sh/bun/discussions/32058 |
+| #15097 | toeverything/AFFiNE | ~69k | https://github.com/toeverything/AFFiNE/discussions/15097 |
+| #2409  | rust-lang/rustlings | ~63k | https://github.com/rust-lang/rustlings/discussions/2409 |
+| #13644 | danny-avila/LibreChat | ~39k | https://github.com/danny-avila/LibreChat/discussions/13644 |
+| #2167  | gitleaks/gitleaks | ~28k | https://github.com/gitleaks/gitleaks/discussions/2167 |
+| #152   | nikitavoloboev/my-mac | ~21k | https://github.com/nikivdev/flow/discussions/152 |
 
 ---
 
