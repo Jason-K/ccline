@@ -159,6 +159,9 @@
 | X/Twitter Thread 7 | dotfiles/macOS power user 角度 | https://x.com/jianshuo/status/2064735991836061824 |
 | Bluesky Post 1 | ccline 功能介绍，command_not_found_handler 原理 | https://bsky.app/profile/jianshuo.bsky.social/post/3mnx2uzwba52p |
 | Bluesky Post 2 | zsh tip 角度，面向 zsh 用户 | https://bsky.app/profile/jianshuo.bsky.social/post/3mnx2vpcui426 |
+| Bluesky Post 3 | "tired of googling" 可共鸣角度 | https://bsky.app/profile/jianshuo.bsky.social/post/3mnx2wqx47l2s |
+| Bluesky Post 4 | macOS zsh 用户专属 | https://bsky.app/profile/jianshuo.bsky.social/post/3mnx2wvybgt2s |
+| Bluesky Post 5 | 面向 Claude Code 用户 | https://bsky.app/profile/jianshuo.bsky.social/post/3mnx2xhmf732s |
 | Dev.to 文章草稿 | 技术文章「I wired Claude into zsh's command_not_found_handler」 | docs/devto-article.md（待人工发布）|
 | Reddit 帖子草稿 | r/commandline, r/zsh, r/MacOS, Show HN 文案 | docs/reddit-posts.md（待人工发布）|
 | 521xueweihan/HelloGitHub「推荐项目」| 在 161k 星的 HelloGitHub 「推荐项目」分类发帖 | https://github.com/521xueweihan/HelloGitHub/discussions/3342 |
