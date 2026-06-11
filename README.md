@@ -81,7 +81,7 @@ source $(brew --prefix)/share/ccline/ccline.zsh
 **One-line install script**:
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/jianshuo/ccline/v0.2.2/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/jianshuo/ccline/v0.2.3/install.sh | bash
 ```
 
 **From a clone**:
@@ -145,7 +145,7 @@ Fish support is available through a separate installer:
 Or remotely:
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/jianshuo/ccline/v0.2.2/install-fish.sh | bash
+curl -fsSL https://raw.githubusercontent.com/jianshuo/ccline/v0.2.3/install-fish.sh | bash
 ```
 
 This installs `ccline` to `~/.local/bin` and the fish integration to
