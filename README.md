@@ -133,3 +133,27 @@ Then remove the `# ccline` block from `~/.zshrc`.
 ```sh
 bash tests/test_ccline.sh
 ```
+
+## Fish support
+
+Fish support is available through a separate installer:
+
+```sh
+./install-fish.sh
+```
+
+Or remotely:
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/jianshuo/ccline/v0.2.2/install-fish.sh | bash
+```
+
+This installs `ccline` to `~/.local/bin` and the fish integration to
+`~/.config/fish/conf.d/ccline.fish`.
+
+To uninstall the fish integration:
+
+```sh
+rm -f ~/.local/bin/ccline
+rm -f ~/.config/fish/conf.d/ccline.fish
+```

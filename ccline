@@ -14,14 +14,29 @@ set -uo pipefail
 # Optional model override, e.g. CCLINE_MODEL=claude-haiku-4-5-20251001
 CCLINE_MODEL="${CCLINE_MODEL:-}"
 
+ccline_shell_name() {
+  local shell_name="${CCLINE_SHELL:-zsh}"
+
+  case "$shell_name" in
+    fish | zsh | bash | sh) printf '%s\n' "$shell_name" ;;
+    *) printf '%s\n' zsh ;;
+  esac
+}
+
 ccline_system_prompt() {
-  cat <<'EOF'
+  local shell_name fence
+  shell_name="$(ccline_shell_name)"
+  fence=bash
+  [ "$shell_name" = fish ] && fence=fish
+
+  cat <<EOF
 You are a command-line assistant answering a quick question typed directly at a
-macOS zsh prompt. Be concise — a few sentences at most. If your answer involves
-shell commands the user can run, put each runnable command in its own fenced
-```bash code block. Never put example output, file contents, or non-runnable
-snippets in a bash/sh/shell block. Prefer safe, non-destructive commands; if a
-command is destructive, say so plainly.
+macOS ${shell_name} prompt. Be concise — a few sentences at most. If your
+answer involves shell commands the user can run, put each runnable command in
+its own fenced \`\`\`${fence} code block. Never put example output, file
+contents, or non-runnable snippets in a bash/sh/shell/fish block. Prefer
+commands that are valid for ${shell_name}; if a command is destructive, say so
+plainly.
 EOF
 }
 
@@ -81,14 +96,17 @@ ccline_ask_codex() {
 # Read an answer on stdin, print the lines that live inside ```bash / ```sh /
 # ```shell fenced blocks (one line per command, order preserved).
 ccline_extract_commands() {
-  awk '
+  local shell_name
+  shell_name="$(ccline_shell_name)"
+
+  awk -v shell_name="$shell_name" '
     /^[[:space:]]*```/ {
       if (infence) { infence = 0; next }
       info = $0
       sub(/^[[:space:]]*```/, "", info)
       gsub(/[[:space:]]/, "", info)
       info = tolower(info)
-      if (info == "bash" || info == "sh" || info == "shell") infence = 1
+      if (info == "bash" || info == "sh" || info == "shell" || (shell_name == "fish" && info == "fish")) infence = 1
       next
     }
     infence { print }
