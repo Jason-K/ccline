@@ -40,7 +40,7 @@ INSTALL_HOME="$(mktemp -d)"
 HOME="$INSTALL_HOME" SHELL=/usr/bin/fish "${ROOT}/install-fish.sh" >/dev/null
 check "install script writes fish conf.d" "yes" "$([ -f "${INSTALL_HOME}/.config/fish/conf.d/ccline.fish" ] && echo yes || echo no)"
 check "install script leaves config.fish alone" "no" "$([ -f "${INSTALL_HOME}/.config/fish/config.fish" ] && echo yes || echo no)"
-check "install script skips zsh integration for fish" "no" "$([ -e "${INSTALL_HOME}/.zshrc" ] && echo yes || echo no)"
+check "install script skips zsh integration for fish" "no" "$([ -e "${INSTALL_HOME}/.config/zsh/.zshrc" ] && echo yes || echo no)"
 rm -rf "$INSTALL_HOME"
 
 if command -v fish >/dev/null 2>&1; then

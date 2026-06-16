@@ -118,8 +118,8 @@ brew install jianshuo/tap/ccline
 
 # Or manual
 git clone https://github.com/jianshuo/ccline
-echo 'source ~/ccline/ccline.zsh' >> ~/.zshrc
-source ~/.zshrc
+echo 'source ~/ccline/ccline.zsh' >> ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
 ```
 
 The Homebrew formula installs the main `ccline` script and `ccline.zsh` (the hook). Sourcing `ccline.zsh` registers the `command_not_found_handler`.

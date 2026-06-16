@@ -16,7 +16,7 @@ RAW="https://raw.githubusercontent.com/${REPO}/${REF}"
 
 BIN_DIR="${HOME}/.local/bin"
 CFG_DIR="${HOME}/.config/ccline"
-ZSHRC="${HOME}/.zshrc"
+ZSHRC="${HOME}/.config/zsh/.zshrc"
 SOURCE_LINE="source ${CFG_DIR}/ccline.zsh"
 
 # Find source files: prefer a local clone; otherwise download from GitHub.
@@ -52,7 +52,7 @@ echo "  ${BIN_DIR}/ccline"
 echo "  ${CFG_DIR}/ccline.zsh"
 
 if [ -f "$ZSHRC" ] && grep -qF "$SOURCE_LINE" "$ZSHRC"; then
-  echo "~/.zshrc already sources ccline — nothing to add."
+  echo "~/.config/zsh/.zshrc already sources ccline — nothing to add."
 else
   {
     echo ""
@@ -64,7 +64,7 @@ fi
 
 case ":${PATH}:" in
   *":${BIN_DIR}:"*) ;;
-  *) echo "NOTE: ${BIN_DIR} is not on your PATH. Add it in ~/.zshrc." ;;
+  *) echo "NOTE: ${BIN_DIR} is not on your PATH. Add it in ~/.config/zsh/.zshrc." ;;
 esac
 
 if ! command -v claude >/dev/null 2>&1 \
@@ -77,5 +77,5 @@ if ! command -v claude >/dev/null 2>&1 \
 fi
 
 echo
-echo "Done. Open a new terminal (or run: source ~/.zshrc) and just type a thought:"
+echo "Done. Open a new terminal (or run: source ~/.config/zsh/.zshrc) and just type a thought:"
 echo "    how do I find files bigger than 100MB here"

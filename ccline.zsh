@@ -1,6 +1,6 @@
 # ccline — zsh integration.
 #
-# Source this from ~/.zshrc:
+# Source this from ~/.config/zsh/.zshrc:
 #     source ~/.config/ccline/ccline.zsh
 #
 # When you type something that isn't a real command, zsh hands the whole line

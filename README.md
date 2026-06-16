@@ -74,7 +74,7 @@ installed; otherwise a built-in `perl` renderer (no extra dependency).
 brew install jianshuo/tap/ccline
 ```
 
-Then add to `~/.zshrc`:
+Then add to `~/.config/zsh/.zshrc`:
 
 ```sh
 source $(brew --prefix)/share/ccline/ccline.zsh
@@ -94,8 +94,8 @@ cd ccline && ./install.sh
 ```
 
 The install script puts `ccline` in `~/.local/bin`, `ccline.zsh` in `~/.config/ccline/`,
-and adds one `source` line to your `~/.zshrc`. Re-running it is safe. Then open a
-new terminal (or `source ~/.zshrc`).
+and adds one `source` line to your `~/.config/zsh/.zshrc`. Re-running it is safe. Then open a
+new terminal (or `source ~/.config/zsh/.zshrc`).
 
 ## Configuration
 
@@ -128,7 +128,7 @@ subprocess, so shell-state changes like `cd` won't persist there.
 rm -f ~/.local/bin/ccline
 rm -rf ~/.config/ccline
 ```
-Then remove the `# ccline` block from `~/.zshrc`.
+Then remove the `# ccline` block from `~/.config/zsh/.zshrc`.
 
 ## Tests
 

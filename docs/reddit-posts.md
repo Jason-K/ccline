@@ -41,7 +41,7 @@ brew install jianshuo/tap/ccline
 
 # Or manual (just source a file)
 git clone https://github.com/jianshuo/ccline
-echo 'source ~/ccline/ccline.zsh' >> ~/.zshrc
+echo 'source ~/ccline/ccline.zsh' >> ~/.config/zsh/.zshrc
 ```
 
 **GitHub**: https://github.com/jianshuo/ccline
@@ -75,7 +75,7 @@ The core is a ~30-line zsh function. The rest (~270 lines) handles spinner anima
 **Install**:
 ```bash
 brew install jianshuo/tap/ccline
-# Add to ~/.zshrc:
+# Add to ~/.config/zsh/.zshrc:
 source $(brew --prefix)/share/ccline/ccline.zsh
 ```
 
@@ -110,7 +110,7 @@ It uses the `claude` CLI (Claude Code), prints the answer with syntax highlighti
 **Install**:
 ```bash
 brew install jianshuo/tap/ccline
-# Add to ~/.zshrc: source $(brew --prefix)/share/ccline/ccline.zsh
+# Add to ~/.config/zsh/.zshrc: source $(brew --prefix)/share/ccline/ccline.zsh
 ```
 
 GitHub: https://github.com/jianshuo/ccline

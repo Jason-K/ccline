@@ -33,12 +33,12 @@ the thought, hit enter.
 ## Components
 
 1. **`ccline.zsh`** — the shell integration. Defines
-   `command_not_found_handler()`. The user sources it from `~/.zshrc`.
+   `command_not_found_handler()`. The user sources it from `~/.config/zsh/.zshrc`.
 2. **`ccline`** — a helper script (bash) that does the real work: builds the
    prompt, calls `claude -p`, prints the answer, extracts commands, runs them
    on confirmation. Kept separate so the handler stays tiny and testable.
 3. **`install.sh`** — copies `ccline` into `~/.local/bin`, copies `ccline.zsh`
-   into `~/.config/ccline/`, and appends a `source` line to `~/.zshrc` (idempotent).
+   into `~/.config/ccline/`, and appends a `source` line to `~/.config/zsh/.zshrc` (idempotent).
 4. **`README.md`** — usage, install, limitations, uninstall.
 
 ## Flow
