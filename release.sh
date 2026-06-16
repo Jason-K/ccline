@@ -61,7 +61,7 @@ gh release create "$NEW" --title "ccline ${NEW}" --notes "${NOTES}
 
 ## Install
 \`\`\`sh
-curl -fsSL https://raw.githubusercontent.com/jianshuo/ccline/${NEW}/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Jason-K/ccline/${NEW}/install.sh | bash
 \`\`\`"
 
-echo "Released ${NEW}: https://github.com/jianshuo/ccline/releases/tag/${NEW}"
+echo "Released ${NEW}: https://github.com/Jason-K/ccline/releases/tag/${NEW}"

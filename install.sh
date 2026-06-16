@@ -2,7 +2,7 @@
 #
 # Install ccline. Works two ways:
 #   • from a local clone:   ./install.sh
-#   • remotely:             curl -fsSL <raw-url>/install.sh | bash
+#   • remotely:             curl -fsSL https://raw.githubusercontent.com/Jason-K/ccline/main/install.sh | bash
 #
 # Idempotent — safe to re-run.
 
@@ -10,7 +10,7 @@ set -euo pipefail
 
 # Pinned to a release tag so the install command is stable across future
 # changes. Override with CCLINE_REF=main (or another tag) to install elsewhere.
-REPO="jianshuo/ccline"
+REPO="Jason-K/ccline"
 REF="${CCLINE_REF:-v0.2.3}"
 RAW="https://raw.githubusercontent.com/${REPO}/${REF}"
 
