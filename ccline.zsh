@@ -17,20 +17,46 @@
 # question like "how do I do X?" reaches the handler instead of erroring.
 setopt no_nomatch 2>/dev/null
 
+# Cache backend resolution at shell startup — avoids forking `command -v`
+# on every keystroke when atuin or other ZLE widgets probe command_not_found_handler.
+_CCLINE_BACKEND=""
+for _ccline_try in claude codex pi; do
+  if command -v "$_ccline_try" >/dev/null 2>&1; then
+    _CCLINE_BACKEND="$_ccline_try"
+    break
+  fi
+done
+unset _ccline_try
+
+# NOTE (atuin + ZLE compatibility): zsh-autosuggestions and atuin's suggestion
+# strategy call command_not_found_handler synchronously during line editing to
+# validate partial input. $ZLE_STATE is non-empty whenever the handler is invoked
+# from within the ZLE line editor (i.e. the user is still typing), vs. empty when
+# zsh is actually executing a command. The guard at the top of
+# command_not_found_handler bails immediately in the ZLE context, preventing
+# per-keystroke lag caused by mktemp and ccline invocation.
+
 command_not_found_handler() {
+  # Atuin and other ZLE widgets call this handler during line editing to
+  # validate partial input. $ZLE_STATE is set whenever we're inside the line
+  # editor — bail immediately to avoid any lag during typing.
+  [[ -n $ZLE_STATE ]] && return 127
+
+  # Also bail instantly if the first token is a known command — prevents
+  # unnecessary ccline invocation for valid commands with unknown arguments.
+  (( $+commands[$1] )) && return 127
+
   # Two or more words AND the helper is actually installed → ask Claude.
-  # The $+commands check also prevents infinite recursion if ccline is missing.
   if (( $# >= 2 )) && (( $+commands[ccline] )); then
     local runfile
     runfile="$(mktemp "${TMPDIR:-/tmp}/ccline.XXXXXX")" || {
-      command ccline "$@"; return $?
+      CCLINE_BACKEND="$_CCLINE_BACKEND" command ccline "$@"; return $?
     }
 
-    CCLINE_RUN_FILE="$runfile" command ccline "$@"
+    CCLINE_BACKEND="$_CCLINE_BACKEND" CCLINE_RUN_FILE="$runfile" command ccline "$@"
     local rc=$?
 
     if [[ -s "$runfile" ]]; then
-      # Run the chosen command(s) in this interactive shell.
       local line
       while IFS= read -r line; do
         [[ -n "$line" ]] || continue
@@ -43,7 +69,6 @@ command_not_found_handler() {
     return $rc
   fi
 
-  # Single token, or helper not installed: behave like a normal shell.
   print -u2 "zsh: command not found: $1"
   return 127
 }
